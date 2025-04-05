@@ -38,9 +38,10 @@ Una API RESTful para gestión de usuarios y tareas, construida con Node.js, Expr
 ### Pasos para configurar
 
 1. **Clonar repositorio**
+
    ```bash
-   git clone https://github.com/tu-usuario/tasks-api.git
-   cd tasks-api
+   git clone https://github.com/istrejo/lenguaje-3-corte-3.git
+   cd lenguaje-3-corte-3
 
    ```
 
@@ -48,11 +49,23 @@ Una API RESTful para gestión de usuarios y tareas, construida con Node.js, Expr
 
     npm install
 
-3 **Configurar variables de entorno**
+3 **Crear la base de datos en PostgrsSQL**
+
+    CREATE DATABASE tasks_db;
+
+4 **Configurar variables de entorno**
 
     DB_USER=postgres
     DB_HOST=localhost
-    DB_NAME=nombre_de_db
+    DB_NAME=tasks_db
     DB_PASSWORD=tu_contraseña
     DB_PORT=5432
     PORT=3000
+
+5. **Ejecutar APP**
+
+   node app.js
+
+6 **Si todo está bien, verás**:
+
+    Servidor en puerto 3000
