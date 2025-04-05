@@ -1,0 +1,51 @@
+# Archivos de entorno
+.env
+.env.local
+.env.development
+.env.test
+
+# Dependencias
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+
+# Editor/IDE
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Archivos de compilación
+dist/
+build/
+coverage/
+
+# PostgreSQL
+*.pid
+*.dump
+
+# Archivos de pruebas
+/test/results/
+
+# Archivos de desarrollo local
+*.local
+
+# Docker
+docker-compose.override.yml
+
+# Misceláneos
+*.seed
+*.pid.lock
