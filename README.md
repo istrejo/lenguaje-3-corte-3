@@ -64,7 +64,10 @@ Una API RESTful para gestión de usuarios y tareas, construida con Node.js, Expr
 
 5. **Ejecutar APP**
 
+   ```bash
    node app.js
+
+   ```
 
 6 **Si todo está bien, verás**:
 
